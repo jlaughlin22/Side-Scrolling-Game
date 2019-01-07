@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        div{
+            position: absolute;
+            top: -28px;
+            left: 0px;
+            bottom: 0px;
+        }
+        #first{
+            z-index: 2;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+        #second{
+            position: absolute;
+            z-index: 1;
+        }
+        #img{/* see recources source 5*/
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            height: auto;
+        }
+        #first h1{
+            text-align: center;
+            padding: 20px;
+        }
+
+        li a{
+            background-color: grey;
+            border: black solid;
+        }
+        li{
+            display: block;
+            font-size: 20pt;
+        }
+        li a{
+            color: black;
+            padding: 10px 30px;
+            text-decoration: none;
+            margin-left: 45%;
+        }
+        li p{
+            text-align: center;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        li a:hover{
+            background-color: gray;
+            color: white;
+        }
+    </style>   
     <head>
         <meta charset="UTF-8">
         <title>Recources</title>
     </head>
     <body>
-        <h1>Sources Used for Slide Scrolling Game</h1>
-        <p><a href="https://www.piskelapp.com/">Source 1</a> This was used for creating the character as well as the background.</p>
-        <p><a href="https://www.brik.co/blogs/pixel-art/161392327-jumping-mario-pixel-art">Source 2</a> This was used as a base for character design.</p>
+        <div id="first">
+            <h1>Sources Used for Slide Scrolling Game</h1>
+            <li>
+                <a href="https://www.piskelapp.com/">Source 1</a><p> This source was used to create and animate the character for the game. It was also used to create the background for the game as well as splitting the image into 5 layers.</p>
+                <a href="https://www.brik.co/blogs/pixel-art/161392327-jumping-mario-pixel-art">Source 2</a><p> This was used as a base for character design. The design itself was slightly modified, it was just a basic model as only one out of 18 frames was specifically modeled after the image.</p>
+                <a href="https://pixabay.com/en/background-abstract-line-2462434/">Source 3</a><p> This was used as the backgrounds for all the webpages.</p>
+                <a href="https://learn.zybooks.com/zybook/WHITWORTHCS301Spring2019/chapter/5/section/4">Source 4</a><p> This was used to help create the Menu bar with buttons. Not much of the code was changed.</p>
+                <a href="https://css-tricks.com/perfect-full-page-background-image/">Source 5</a><p> This was used to create the background for the websites to fit the window of the screen.</p>
+                <a href="https://fontmeme.com/pixel-fonts/">Source 6</a><p> This was used to help create the logo I found the font I wanted and then put created the gif in pixel.</p>
+            </li>
+        </div>
+        <div id="second">
+            <p><img src="images/background-2462434.jpg" alt="background" id="img"></p>
+        </div>
     </body>
 </html>

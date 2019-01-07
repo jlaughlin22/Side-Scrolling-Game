@@ -7,67 +7,73 @@
             left: 0px;
             bottom: 0px;
         }
-
         #first{
-           z-index: 2;
+            z-index: 2;
+            margin-top: 225px;
         }
-
         p{
             font-size: 20pt;
             text-align: left;
         }
-
-        h1{
-            text-align: center;
+        #header{
+            position: relative;
+            margin-left: 50%;
+            z-index: 3;
         }
-
+        #logo{
+            margin-left: -12px;
+        }
+        #navbar{
+            margin-left: -110px;
+        }
         #second{
+            position: absolute;
             z-index: 1;
         }
-
-        #img{
+        #img{/* see recources source 5*/
             width: 100%;
             height: 100%;
+            min-width: 3000px;
+            position: fixed;
+            height: auto;
         }
-
         li a{
             background-color: grey;
         }
-
         li{
             display: inline;
         }
-
         li a{
             color: black;
             padding: 10px 20px;
             text-decoration: none;
         }
-
         li a:hover{
             background-color: gray;
             color: white;
         }
-
     </style>
     <head>
         <meta charset="UTF-8">
         <title>Mario Bros Slide Scrolling Game</title>
     </head>
+    <header id="header">
+        <h1>Mario Slider</h1>
+        <p id="logo"><img src="images/logo2.gif" alt="logo"></p>
+        <nav id="navbar">
+            <li>
+                <a href="design.html">Design</a> 
+                <a href="resources.html">Resources</a> 
+                <a href="layers.html">Layers</a>
+                <a href="mailto:jlaughlin22@my.whitworth.edu">Contact us</a>
+            </li>
+        </nav>
+    </header>
     <body>
         <div id="first">
-            <h1>Mario Slider</h1>
-            <nav>
-                <li>
-                    <a href="design.html">Design</a> 
-                    <a href="resources.html">Resources</a> 
-                    <a href="layers.html">Layers</a>
-                    <a href="mailto:jlaughlin22@my.whitworth.edu">Contact us</a>
-                </li>
-            </nav>
-            <p>This gif is the character which will be in the game.</p> 
+            <p>This gid will be the animated character used in the scrolling game. Currently the gif is animated such that the character appears to be running.</p> 
             <p><img src="images/character2.gif" alt="Character"></p>
-            <p>The following is the background of the game there are a total of 5 layers this however is the combination of all the layers together.<img src="images/totalpic.png" alt="totalpic"></p>
+            <p>The following is the background of the game there are a total of 5 layers this however is the combination of all the layers together. If you wish to see all the layers seperated click on the menu box layers.<img src="images/totalpic.png" alt="totalpic"></p>
         </div>
         <div id="second">
             <p><img src="images/background-2462434.jpg" alt="background" id="img"></p>
