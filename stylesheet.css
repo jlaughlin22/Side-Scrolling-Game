@@ -1,0 +1,99 @@
+
+nav ul{
+    background-color: #090e13;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    z-index: 99;
+    font-size: 25pt;
+}
+body, ul, li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+nav ul li{
+    float: left;
+    position: relative;
+    background: none;
+}
+nav ul li a{
+    display: block;
+    padding: 25px 40px;
+    color: #757575;
+    text-decoration: none;
+}
+nav ul li:hover a{
+    color: #fff;
+}
+nav ul li a:hover{
+    background: #323d43;
+    transform: scale(1.1);
+}
+header{
+    text-align: center;
+    top: -48px;
+    margin-left: -25px;
+    z-index: 3;
+}
+.logo{
+    display: block;
+    text-align: center;
+    margin-left: -15px;
+}
+p{
+    font-size: 20pt;
+    text-align: left;
+}
+#describe{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+footer li{
+    display: block;
+    padding: 10px;
+    margin: 0;
+}
+#first{
+    z-index: 2;
+    margin-top: 25px;
+}
+.img{/* see recources source 5*/
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    min-width: 3000px;
+    height: auto;
+    position: fixed;
+    top: 0px;
+}
+#first ul li a{
+    text-align: center;
+    background-color: #090e13;
+    list-style: none;
+}
+#first ul li p{
+    text-align: center;
+}
+#first ul li a:hover{
+    background: #424242;
+    transform: scale(1.1);
+}
+#first ul li:hover a{
+    color: #fff;
+}
+#first ul li a{
+    display: block;
+    padding: 25px 40px;
+    color: #757575;
+    text-decoration: none;
+}
+#first li img{
+    background-color: #607D8B;
+}
+#first li{
+    text-align: left;
+    display: inline;
+
+}
