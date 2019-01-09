@@ -1,76 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        div{
-            position: absolute;
-            top: -28px;
-            left: 0px;
-            bottom: 0px;
-        }
-
-        #first{
-           z-index: 2;
-        }
-
-        p{
-            font-size: 20pt;
-            text-align: left;
-        }
-
-        h1{
-            text-align: center;
-        }
-
-        #second{
-            z-index: 1;
-        }
-
-        #img{
-            width: 100%;
-            height: 100%;
-        }
-
-        li a{
-            background-color: grey;
-        }
-
-        li{
-            display: inline;
-        }
-
-        li a{
-            color: black;
-            padding: 10px 20px;
-            text-decoration: none;
-        }
-
-        li a:hover{
-            background-color: gray;
-            color: white;
-        }
-
-    </style>
     <head>
         <meta charset="UTF-8">
         <title>Mario Bros Slide Scrolling Game</title>
+        <link rel="stylesheet" href="css/stylesheet.css"><!--links the css style sheet for the html -->
     </head>
-    <body>
+    <body background="images/mario_background (1).png"><!--creates the background image for the page-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li><!--link to home tab-->
+                <li><a href="design.html">Design</a></li><!--link to design tab-->
+                <li><a href="resources.html">Resources</a></li><!--link to resource tab-->
+                <li><a href="layers.html">Layers</a></li><!--link to layer tab-->
+            </ul>
+        </nav>
+        <header>
+            <h1>Mario Bros</h1><!--title of the page itself-->
+        </header>
+        <p class="logo"><img src="images/logo2.gif" alt="logo"></p><!--logo of game appears on every tab-->
         <div id="first">
-            <h1>Mario Slider</h1>
-            <nav>
-                <li>
-                    <a href="design.html">Design</a> 
-                    <a href="resources.html">Resources</a> 
-                    <a href="layers.html">Layers</a>
-                    <a href="mailto:jlaughlin22@my.whitworth.edu">Contact us</a>
-                </li>
-            </nav>
-            <p>This gif is the character which will be in the game.</p> 
-            <p><img src="images/character2.gif" alt="Character"></p>
-            <p>The following is the background of the game there are a total of 5 layers this however is the combination of all the layers together.<img src="images/totalpic.png" alt="totalpic"></p>
+            <p>This gif will be the animated character used in the scrolling game. Currently the gif is animated such that the character appears to be running.</p><!--description of the gif bellow-->
+            <p><img src="images/character2.gif" alt="Character"></p><!--displays the mario running gif-->
+            <p>The following is the background of the game there are a total of 5 layers this however is the combination of all the layers together. If you wish to see all the layers separated click on the menu box layers.</p>
+            <img src="images/totalpic.png" alt="totalpic"><!--displays the entire picture of all the layers combined-->
         </div>
-        <div id="second">
-            <p><img src="images/background-2462434.jpg" alt="background" id="img"></p>
-        </div>
+        <footer><!--appears bottom of page-->
+            <p>Contact information: </p><!--contact information for the group displayed bottom left corner of page shows our emails if contact is needed-->
+            <li>jlaughlin22@my.witworth.edu</li>
+            <li>cbell20@my.whitworth.edu</li>
+            <li>rsoderberg20@my.whitworth.edu</li>
+        </footer>
     </body>
 </html>

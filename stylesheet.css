@@ -1,0 +1,137 @@
+/*used to create the base of the menu bar*/
+nav ul{
+    background-color: #090e13;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    z-index: 99;
+    font-size: 25pt;
+}
+
+/*Sets the menu bar with no margin no padding and no border*/
+body, ul, li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*floats the menu bar to left of screen*/
+nav ul li{
+    float: left;
+    position: relative;
+    background: none;
+}
+
+/*Sets display to block and color of the boxes as well as the padding for them*/
+nav ul li a{
+    display: block;
+    padding: 25px 40px;
+    color: #757575;
+    text-decoration: none;
+}
+
+/*When user hovers mouse over menu buttons for the nav tag the words will appear white*/
+nav ul li:hover a{
+    color: #fff;
+}
+
+/*When user hovers mouse over menu buttons for the nav tag the backgrounds for the boxes will appear a light grey color as well as increase in size 1.1x making it obvious that it is a clickable button*/
+nav ul li a:hover{
+    background: #323d43;
+    transform: scale(1.1);
+}
+
+/*Aligns the Title of page to the center of the page with a z-index of 3*/
+header{
+    text-align: center;
+    top: -48px;
+    margin-left: -25px;
+    z-index: 3;
+}
+
+/*Aligns the logo center of the page in a block display see source 8*/
+.logo{
+    display: block;
+    text-align: center;
+    margin-left: -15px;
+}
+
+/*Gives the words in <p></p> a font size of 20 with a left alignment*/
+p{
+    font-size: 20pt;
+    text-align: left;
+}
+
+/*aligns the text in the design html to center of screen*/
+#describe{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/*formats the footer on the index html*/
+footer li{
+    display: block;
+    padding: 10px;
+    margin: 0;
+}
+
+/*anything in div with id first set to a z index of 2*/
+#first{
+    z-index: 2;
+    margin-top: 25px;
+}
+
+/*Used to set the picter to the size of the window with a min width of 3000px such that the background of the game can stay on the picture when zoom out picture resizes see recources source 5*/
+.img{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    min-width: 3000px;
+    height: auto;
+    position: fixed;
+    top: 0px;
+}
+
+/*center aligns source boxes resource html sets backgrund color to black*/
+#first ul li a{
+    text-align: center;
+    background-color: #090e13;
+    list-style: none;
+}
+
+/*used to center the description of what the sources were used for on the resource page*/
+#first ul li p{
+    text-align: center;
+}
+
+/*resource page enlarges the source box and chnages color when mouse is over the top of it*/
+#first ul li a:hover{
+    background: #424242;
+    transform: scale(1.1);
+}
+
+/*Used on sources htm to chnage the words of the source to white when mouse hovers over it*/
+#first ul li:hover a{
+    color: #fff;
+}
+
+/*Used on the resources html sets the background of the sources and how they are displayed*/
+#first ul li a{
+    display: block;
+    padding: 25px 40px;
+    color: #757575;
+    text-decoration: none;
+}
+
+/*Sets the background color for the boxes in the resources html*/
+#first li img{
+    background-color: #607D8B;
+}
+
+/* This is used in the layers html to allign everything to the left and with a inline display */
+#first li{
+    text-align: left;
+    display: inline;
+
+}

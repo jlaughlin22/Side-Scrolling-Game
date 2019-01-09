@@ -1,32 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        div{
-            position: absolute;
-        }
-        #second{
-            z-index: 1;
-        }
-        #first{
-            z-index: 2;
-        }
-        #img{
-            width: 100%;
-            height: 100%;
-        }
-    </style>
     <head>
         <meta charset="UTF-8">
-        <title>Mario Bros</title>
-        
+        <title>Mario Bros</title><!--Title of the webpage can be seen by looking at the tab title-->
+        <link rel="stylesheet" href="css/stylesheet.css"><!--Links the css stylesheet to this design html to set all the styles for the webpage-->
     </head>
-    <body>
+    <body background="images/mario_background (1).png"><!--starts body and sets the background of the webpage to the image defined in the tag-->
+        <nav><!--appears at top of webpage-->
+            <ul>
+                <li><a href="index.html">Home</a></li><!--Home tab in the menu bar-->
+                <li><a href="design.html">Design</a></li><!--Design tab in the menu bar-->
+                <li><a href="resources.html">Resources</a></li><!--Resources tab in the menu bar-->
+                <li><a href="layers.html">Layers</a></li><!--Layer tab in the menu bar-->
+            </ul>
+        </nav>
+        <header>
+            <h1>Mario Bros Design</h1><!--title of the page -->
+        </header>
+        <p class="logo"><img src="images/logo2.gif" alt="logo"></p><!--logo of the game can be seen on every tab-->
         <div id="first">
-            <h1>Mario Bros</h1>
-            <p>This game is an adventure based sliding game which consits of a character "Mario" who is constantly jumping over pipes. Mario will be an animated charcter with different animations for jumping and running, the user will be able to both change the direction Mario will run as well as make him jump. The game consits of differnt height of pipes with different levels of difficulty.</p>
-        </div>
-        <div id="second">
-            <p><img src="images/background-2462434.jpg" alt="background" id="img"></p>
+            <p id="describe">This game is an adventure based sliding game which consists of a character "Mario" who is constantly jumping over pipes. Mario will be an animated character with different animations for jumping and running, the user will be able to both change the direction Mario will run as well as make him jump. The game consists of different height of pipes with varying levels of difficulty.</p><!--description of the game appears midscreen-->
         </div>
     </body>
 </html>
